@@ -1,0 +1,506 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.logo {
+    width: 70px;
+    height: 70px;
+}
+
+.contact ul {
+    display: flex;
+    margin-top: 10px;
+}
+
+.contact li {
+    padding: 0 20px;
+    list-style: none;
+}
+
+.user,
+.search,
+.like,
+.shopping_cart {
+    width: 20px;
+}
+
+.aesthetic-interiors .navbar-toggler {
+    border: none;
+    font-size: 1.25rem;
+}
+
+.aesthetic-interiors .navbar-toggler:focus, 
+.btn-close:focus {
+    box-shadow: none;
+    outline: none;
+}
+
+.aesthetic-interiors .nav-link {
+    color: #666777;
+    font-weight: bold;
+    position: relative;
+}
+
+.aesthetic-interiors .nav-link:hover, .nav-link.active {
+    color: #000;
+}
+
+@media (min-width: 991px) {
+    .nav-link::before {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 0;
+        height: 2px;
+        background-color: #000;
+        visibility: hidden;
+        transition: 0.3s ease-in-out;
+    }
+
+    .nav-link:hover::before, .nav-link.active::before {
+        width: 100%;
+        visibility: visible;
+    }
+}
+
+.banner {
+    margin-top: 90px;
+    object-fit: contain;
+}
+
+.aesthetic-interiors .navbar {
+    background-color: #fff;
+}
+
+.products-price {
+    display: flex;
+    gap: 20px;
+}
+
+.card-price {
+    font-size: 20px;
+    color: red;
+}
+
+.card-text,
+.card-price-sale {
+    color: #666777;
+}
+
+.products {
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 49px;
+}
+
+.cards {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.card-text-main {
+    padding: 10px 10px;
+}
+
+.card-text {
+    padding-top: 10px;
+}
+
+.hr {
+    border: 1px solid #000000;
+}
+
+.products-content {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    row-gap: 30px;
+    column-gap: 30px;
+    flex-wrap: wrap;
+}
+
+.info-product1,
+.info-product2,
+.info-product3,
+.info-product4 {
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.blog-news {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.blog-about {
+    display: flex;
+    justify-content: right;
+}
+
+.blog-about a {
+    text-decoration: none;
+    margin-top: 35px;
+}
+
+.text-news {
+    flex-basis: 49%;
+    line-height: 25px;
+}
+
+.blog1 {
+    width: 635px;
+}
+
+.about {
+    font-size: 18px;
+    color: rgb(102, 103, 119);
+    font-weight: 400;
+    line-height: 27px;
+}
+
+.about:hover {
+    color: #000;
+}
+
+.arrow {
+    width: 20px;
+}
+
+.blog-text {
+    text-align: justify;
+    margin-top: 30px;
+}
+
+.blog-title {
+    font-size: 18px;
+    margin-top: 50px
+}
+
+.blog-news .blog1 {
+    border: 1px solid #a3a3a3;
+    border-radius: 5px;
+}
+
+.commit-page {
+    height: 150px;
+    background: #FAF3EA;
+}
+
+.commit-page .all-commit{
+    display: flex;
+    justify-content: space-around;
+    height: 100%;
+    align-items: center;
+}
+
+.first-commit {
+    display: flex;
+    margin-top: 25px;
+}
+.image-commit {
+    width: 50px;
+    height: 50px;
+}
+
+.commit-col {
+    padding: 0 15px;
+}
+
+.text-commit {
+    color: #898989;
+}
+
+.main-footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.col-two-footer a {
+    display: block;
+    line-height: 60px;
+    text-decoration: none;
+    color: #666464;
+    font-weight: 500;
+}
+
+.col-three-footer a {
+    display: block;
+    line-height: 60px;
+    text-decoration: none;
+    color: #666464;
+    font-weight: 500;
+}
+
+.text-footer-links,
+.text-footer-help,
+.text-footer-newsletter {
+    color: #898989;
+    padding-bottom: 33px;
+}
+
+.text-footerr {
+    color: #898989;
+}
+
+.input input, button{
+    margin-top: 15px;
+    border: none;
+    background: #fff;
+}
+
+.input input {
+    border-bottom: 2px solid #000;
+}
+
+.input button {
+    border-bottom: 2px solid #000;
+    font-weight: 500;
+    margin-left: 10px;
+    font-size: 14px;
+}
+
+.just-footer {
+    font-weight: 500;
+}
+
+.text-logo {
+    font-weight: bold;
+}
+
+.footer-link:hover {
+    color: #000000;
+}
+
+@media (max-width: 437px) {
+    .logo {
+        width: 40px;
+        height: 40px;
+    }
+
+    .user,
+    .search,
+    .like,
+    .shopping_cart {
+        width: 18px;
+    }
+
+    .contact li {
+        padding: 0 10px;
+        list-style: none;
+    }
+
+    .aesthetic-interiors .navbar {
+        background-color: #fff;
+        height: 70px;
+    }
+
+    .banner {
+        margin-top: 70px;
+        object-fit: contain;
+    }
+
+    .card {
+        margin-bottom: 20px;
+    }
+}
+
+/* Breakpoints responsive */
+/* Mobile: width < 740px (46.1875em) */
+@media only screen and (max-width: 46.1875em) {
+    .cards {
+        width: 100%;
+    }
+
+    .image-product {
+        width: 100%;
+    }
+
+    .card-text-main {
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .products-price {
+        display: flex;
+        justify-content: center;
+    }
+
+    .card-title .card-price {
+        font-size: 25px;
+    }
+
+    .products {
+        gap: 20px;
+    }
+
+    .products-content {
+        display: grid;
+        grid-template-columns: auto;
+        row-gap: 20px;
+    }
+
+    .blog-news {
+        display: block;
+    }
+
+    .blog-title {
+        margin-top: 15px;
+    }
+
+    .blog-text {
+        margin-top: 20px;
+    }
+    
+    .blog-about a {
+        margin-top: 10px;
+    }
+
+    .blog1 {
+        width: 100%;
+    }
+
+    .commit-page .all-commit {
+        display: grid;
+        grid-template-columns: auto;
+    }
+
+    .commit-page {
+        height: 400px;
+    }
+
+    .image-commit {
+        width: 40px;
+        height: 40px;
+    }
+
+    .title-first-commit {
+        font-size: 18px;
+    }
+
+    .text-commit {
+        font-size: 14px;
+    }
+
+    .main-footer {
+        display: block;
+        text-align: center;
+    }
+
+    .text-footer-links,
+    .text-footer-help,
+    .text-footer-newsletter {
+        font-size: 20px;
+    }
+
+    .text-footer-help,
+    .text-footer-newsletter {
+        padding-top: 50px;
+    }
+
+}
+/* Tablet: width >= 740px (46.25em) and width < 1024px (63.9375em) */
+@media only screen and (min-width: 46.25em) and (max-width: 63.9375em) {
+    .blog1 {
+        width: 100%;
+    }
+
+    .blog-news {
+        display: block;
+    }
+    
+    .blog-title {
+        margin-top: 15px;
+    }
+
+    .blog-text {
+        margin-top: 20px;
+    }
+    
+    .blog-about a {
+        margin-top: 20px;
+    }
+
+    .commit-page .all-commit {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+
+    .commit-page {
+        height: 200px;
+    }
+
+    .image-commit {
+        width: 40px;
+        height: 40px;
+    }
+
+    .title-first-commit {
+        font-size: 18px;
+    }
+
+    .text-commit {
+        font-size: 14px;
+    }
+
+    .main-footer {
+        display: grid;
+        grid-template-columns: auto auto auto;
+    }
+
+    .col-two-footer a {
+        line-height: 10px;
+    }
+}
+
+@media only screen and (min-width: 64em) and (max-width: 87.4375em) {
+    .blog1 {
+        width: 455px;
+    }
+
+    .blog-title {
+        margin-top: 15px;
+    }
+    
+    .blog-text {
+        margin-top: 20px;
+    }
+    
+    .blog-about a {
+        margin-top: 10px;
+    }
+
+    .text-news {
+        flex-basis: 60%;
+        margin-left: 30px;
+        line-height: 20px;
+    }
+
+    .hr-blog {
+        margin-top: 10px;
+    }
+
+    .image-commit {
+        width: 40px;
+        height: 40px;
+    }
+
+    .title-first-commit {
+        font-size: 18px;
+    }
+
+    .text-commit {
+        font-size: 14px;
+    }
+}
+
+/* PC: width >= 1024px (64em) */
+@media only screen and (min-width: 64em) {
+    
+}
